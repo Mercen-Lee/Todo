@@ -16,6 +16,7 @@
 		931F14F928463CC6004A6D8A /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F14F828463CC6004A6D8A /* TodoTests.swift */; };
 		931F150328463CC6004A6D8A /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F150228463CC6004A6D8A /* TodoUITests.swift */; };
 		931F150528463CC6004A6D8A /* TodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F150428463CC6004A6D8A /* TodoUITestsLaunchTests.swift */; };
+		931F151228464338004A6D8A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F151128464338004A6D8A /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		931F14FE28463CC6004A6D8A /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931F150228463CC6004A6D8A /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		931F150428463CC6004A6D8A /* TodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		931F151128464338004A6D8A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				931F14E328463CC3004A6D8A /* SceneDelegate.swift */,
 				931F14E528463CC3004A6D8A /* ViewController.swift */,
 				931F14E728463CC3004A6D8A /* Main.storyboard */,
+				931F151128464338004A6D8A /* Task.swift */,
 				931F14EA28463CC6004A6D8A /* Assets.xcassets */,
 				931F14EC28463CC6004A6D8A /* LaunchScreen.storyboard */,
 				931F14EF28463CC6004A6D8A /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931F151228464338004A6D8A /* Task.swift in Sources */,
 				931F14E628463CC3004A6D8A /* ViewController.swift in Sources */,
 				931F14E228463CC3004A6D8A /* AppDelegate.swift in Sources */,
 				931F14E428463CC3004A6D8A /* SceneDelegate.swift in Sources */,

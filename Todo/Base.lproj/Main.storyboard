@@ -65,7 +65,21 @@
                             <constraint firstItem="IgT-CV-dxh" firstAttribute="top" secondItem="irc-F5-QLt" secondAttribute="top" id="czR-xS-inD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ahT-ye-IzB"/>
+                    <navigationItem key="navigationItem" id="ahT-ye-IzB">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="X9S-pP-Dfz">
+                            <connections>
+                                <action selector="tapEditButton:" destination="Pfy-Xs-YnE" id="hE7-ml-CcO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ssb-Ih-a4l">
+                            <connections>
+                                <action selector="tapAddButton:" destination="Pfy-Xs-YnE" id="d2h-lW-aMc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="choiTableView" destination="IgT-CV-dxh" id="GZW-oE-JXO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYo-IO-ycv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
